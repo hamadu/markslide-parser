@@ -1,0 +1,129 @@
+body {
+  margin: 0px auto;
+  padding:0px;
+  background-color: {{background}};
+  position:relative;
+  font-size: 2.3em;
+}
+
+#title {
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 300%;
+}
+
+body>#main {
+  position:absolute;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 100%;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+div.container div.twopane_left {
+  width: 50%;
+  float: left;
+}
+
+div.container div.twopane_right {
+  margin-left: 50%;
+}
+
+div.page {
+  position:fixed;
+  width: 100%;
+  height: 100%;
+}
+
+div.pager {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  max-height: 640px;
+}
+
+pre {
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+  background-color: #222;
+  color: #fff;
+}
+
+code {
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+  background-color: #222;
+  color: #fff;
+}
+
+th {
+  padding: 5px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+td {
+  padding: 5px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.katex-html {
+  display: none;
+}
+
+.example-appear {
+  opacity: 0.01;
+  transform: translate3d(100%, 0, 0);
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transform: none;
+  transition: all .2s ease-in;
+}
+
+.example-enter {
+  opacity: 0.01;
+  transform: translate3d(100%, 0, 0);
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform: none;
+  transition: all .2s ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+  transform: none;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transform: translate3d(-100%, 0, 0);
+  transition: all .2s ease-in;
+}
